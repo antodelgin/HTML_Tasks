@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input tags</title>
+    </head>
+    <body>
+        <h1>Input tags with default value for form elements</h1>
+        <form>
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="John Doe" required>
+            <br><br>
+        
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="test@gmail.com" required>
+            <br><br>
+        
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="defaultPassword123" required>
+            <br><br>
+        
+            <!-- Number Input -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" value="30" min="1" max="100" required>
+            <br><br>
+        
+            <!-- Date Input -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" value="01-01-2025" required>
+            <br><br>
+        
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+        
+            <!-- Select Dropdown -->
+            <label for="job_role">Applying Job role</label>
+            <select id="job_role" name="job_role">
+                <option value="FSD">Full Stack Developer</option>
+                <option value="JD">Java Developer</option>
+                <option value="FED">Front end Developer</option>
+            </select>
+            <br><br>
+        
+        
+            <!-- Textarea -->
+            <label for="message"></label>
+            <textarea id="message" name="message" required>Message to Hiring manager</textarea>
+            <br><br>
+        
+            <!-- File -->
+            <label for="File">Upload</label><br>
+                <input type="file" name="file" >
+                <br><br>
+            
+            <!-- Checkbox -->
+            <input type="checkbox" id="terms" name="terms" value="Yes" checked>
+            <label for="terms">Agree to terms and conditions</label>
+            <br><br>
+        
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+        
+    </body>
+</html>

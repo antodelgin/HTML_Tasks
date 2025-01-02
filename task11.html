@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form with All Input Types</title>
+</head>
+<body>
+    <h1>Form with All Input Types</h1>
+    <form>
+        <!-- Text -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" placeholder="Enter text" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+        <br><br>
+
+        <!-- Number -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Enter number" min="1" max="100" required>
+        <br><br>
+
+        <!-- Date -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+        <!-- Time -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <br><br>
+
+        <!-- Color -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        <br><br>
+
+        <!-- Range -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="1" max="100">
+        <br><br>
+
+        <!-- Checkbox -->
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" checked>
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <br><br>
+
+        <!-- Radio -->
+        <label>Radio Buttons:</label><br>
+        <input type="radio" id="option1" name="radio" value="Option 1" checked>
+        <label for="option1">Option 1</label><br>
+        <input type="radio" id="option2" name="radio" value="Option 2">
+        <label for="option2">Option 2</label>
+        <br><br>
+
+        <!-- File -->
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+
+        <!-- Reset -->
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
